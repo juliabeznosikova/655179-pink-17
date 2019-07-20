@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Юлия Безносикова](https://up.htmlacademy.ru/adaptive/17/user/655179).
-* Наставник: Тимофей Петров.
+* Наставник: [Тимофей Петров](https://htmlacademy.ru/profile/id1112545).
 
 ---
 
