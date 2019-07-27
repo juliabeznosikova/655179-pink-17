@@ -25,102 +25,97 @@
 
     <main>
       <section class="photos">
-        <div class="photos__introduction">
-          <h2 class="photos__title">Фотографии пользователей</h2>
-          <p class="photo__subtitle">Взгляните на фотографии, которые выкладывают пользователи!
-            Видите, как не хватает ваших?
-          </p>
-        </div>
-        <div class="photo__wrapper">
-          <ul class="photo__list">
-            <li class="photo__item">
-              <span class="photo__day-panorama">Панорама дня</span>
-              <img class="photo__image" src="#" width="" height="" alt="">
-              <div class="photo__description">
-                <span class="photo__user-name">Анна</span>
-                <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                <time class="photo__publication-time"></time>
-                <p class="photo__user-comment">Прыгать или нет? Напишите в коментарии свой совет
-                и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-                <button class="photo__like-button" type="button">like</button>
-                <span class="photo__like">Нравится:</span>
-              </div>
-            </li>
-            <li class="photo__item">
-              <img class="photo__image" src="#" width="" height="" alt="">
-              <div class="photo__description">
-                <span class="photo__user-name">Левон</span>
-                <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                <time class="photo__publication-time"></time>
-                <p class="photo__user-comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-                <button class="photo__like-button" type="button">like</button>
-                <span class="photo__like">Нравится:</span>
-              </div>
-            </li>
-            <li class="photo__item">
-              <img class="photo__image" src="#" width="" height="" alt="">
-              <div class="photo__description">
-                <span class="photo__user-name">Антон</span>
-                <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                <time class="photo__publication-time"></time>
-                <p class="photo__user-comment">Соседи будут рады!</p>
-                <button class="photo__like-button" type="button">like</button>
-                <span class="photo__like">Нравится:</span>
-              </div>
+        <div class="photos__wrapper">
+          <div class="photos__title-block"> <!--Для фоновой картинки-->
+            <h2 class="photos__title title">Фотографии пользователей</h2>
+          </div>
+          <div class="photos__introduction">
+            <p class="photo__subtitle">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+          </div>
+          <div class="photo__wrapper">
+            <ul class="photo__list">
+              <li class="photo__item">
+                <span class="photo__day-panorama">Панорама дня</span>
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Анна</span>
+                  <span class="photo__publication-time">5 минут назад</span>
+                  <p class="photo__user-comment">Прыгать или нет? Напишите в коментарии свой совет
+                    и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
+              </li>
+              <li class="photo__item">
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Левон</span>
+                  <span class="photo__publication-time">5 часов назад</span>
+                  <p class="photo__user-comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
+              </li>
+              <li class="photo__item">
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Антон</span>
+                  <span class="photo__publication-time">12 часов назад</span>
+                  <p class="photo__user-comment">Соседи будут рады!</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
               </li>
               <li class="photo__item">
                 <img class="photo__image" src="#" width="" height="" alt="">
                 <div class="photo__description">
                   <span class="photo__user-name">Борис</span>
-                  <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                  <time class="photo__publication-time"></time>
+                  <span class="photo__publication-time">20 часов назад</span>
                   <p class="photo__user-comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
                   <button class="photo__like-button" type="button">like</button>
                   <span class="photo__like">Нравится:</span>
-                  </div>
-                </li>
-                <li class="photo__item">
-                  <img class="photo__image" src="#" width="" height="" alt="">
-                  <div class="photo__description">
-                    <span class="photo__user-name">Сергей</span>
-                    <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                    <time class="photo__publication-time"></time>
-                    <p class="photo__user-comment">Самая кубанская в мире!</p>
-                    <button class="photo__like-button" type="button">like</button>
-                    <span class="photo__like">Нравится:</span>
-                  </div>
-                </li>
-                <li class="photo__item">
-                  <img class="photo__image" src="#" width="" height="" alt="">
-                  <div class="photo__description">
-                    <span class="photo__user-name">Максим</span>
-                    <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                    <time class="photo__publication-time"></time>
-                    <p class="photo__user-comment">Где снег-то?</p>
-                    <button class="photo__like-button" type="button">like</button>
-                    <span class="photo__like">Нравится:</span>
-                  </div>
-                </li>
-                <li class="photo__item">
-                  <img class="photo__image" src="#" width="" height="" alt="">
-                  <div class="photo__description">
-                    <span class="photo__user-name">Надежда</span>
-                    <!-- Как добавлять время публикации в виде "5 минут назад" -->
-                    <time class="photo__publication-time"></time>
-                    <p class="photo__user-comment">Всем GM и взаимные лайки!</p>
-                    <button class="photo__like-button" type="button">like</button>
-                    <span class="photo__like">Нравится:</span>
-                  </div>
-                </li>
-          </ul>
+                </div>
+              </li>
+              <li class="photo__item">
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Сергей</span>
+                  <span class="photo__publication-time">25 часов назад</span>
+                  <p class="photo__user-comment">Самая кубанская в мире!</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
+              </li>
+              <li class="photo__item">
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Максим</span>
+                  <span class="photo__publication-time">40 часов назад</span>
+                  <p class="photo__user-comment">Где снег-то?</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
+              </li>
+              <li class="photo__item">
+                <img class="photo__image" src="#" width="" height="" alt="">
+                <div class="photo__description">
+                  <span class="photo__user-name">Надежда</span>
+                  <span class="photo__publication-time">45 часов назад</span>
+                  <p class="photo__user-comment">Всем GM и взаимные лайки!</p>
+                  <button class="photo__like-button" type="button">like</button>
+                  <span class="photo__like">Нравится:</span>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <a class="page-footer__logo" href="#">
-        <img class="page-footer__logo-image" src="#" width="" height=""
-        alt="Мобильное приложение для обработки фото Pink">
+          <img class="page-footer__logo-image" src="#" width="" height=""
+          alt="Мобильное приложение для обработки фото Pink">
         </a>
         <div class="page-footer__social social">
           <ul class="social__list">
@@ -136,14 +131,12 @@
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано:</b>
-          <a class="button copyright__link"
-          href="https://htmlacademy.ru/intensive/adaptive">
+          <span class="copyright__text">Разработано:</span>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <img class="copyright__logo-image" src="#" width="" height="" alt="HTML Academy">
           </a>
         </div>
       </div>
-
     </footer>
-    </body>
-    </html>
+  </body>
+</html>
