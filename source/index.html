@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="page-header">
-      <div class="page-header__site-navigation">
+      <div class="page-header__wrapper">
         <a class="page-header__logo">
           <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22"
           alt="Приложение Pink">
@@ -15,11 +16,11 @@
         <nav class="main-nav">
           <button class="main-nav__toggle" type="button">Закрыть меню</button>
           <div class="main-nav__wrapper">
-            <ul class="main-nav__menu site-menu">
-              <li class="site-menu__item"><a href="*">Главная</a></li>
-              <li class="site-menu__item"><a href="*">Фотографии</a></li>
-              <li class="site-menu__item"><a href="*">Конкурс</a></li>
-              <li class="site-menu__item"><a href="*">HTML Academy</a></li>
+            <ul class="main-nav__menu">
+              <li class="main-nav__item"><a class="main-nav__item-link" href="*">Главная</a></li>
+              <li class="main-nav__item"><a class="main-nav__item-link" href="*">Фотографии</a></li>
+              <li class="main-nav__item"><a class="main-nav__item-link" href="*">Конкурс</a></li>
+              <li class="main-nav__item"><a class="main-nav__item-link" href="*">HTML Academy</a></li>
             </ul>
           </div>
         </nav>
@@ -28,38 +29,44 @@
 
     <main>
       <h1 class="visually-hidden">Мобильное приложение Pink для раскрашивания фото в розовый цвет </h1>
-      <div class="index__title-block"><!--фон с фото-->
-        <img class="page-header__app-promo" src="http://placehold.it/320x314" width="320" height="314"
-        alt="Приложение Pink"><!--Картинка с рукой-->
+      <div class="title-block">
+        <div class="title-block__wrapper">
+          <img class="title-block__app-promo" src="http://placehold.it/320x314" width="320" height="314"
+          alt="Приложение Pink"><!--Картинка с рукой-->
+        </div>
       </div>
       <section class="app-download">
-        <button class="app-download__btn" type="button">Скачать приложение</button>
-        <ul class="app-download__os os-icon">
-          <li class="os-icon__item"><img src="http://placehold.it/47x56" width="47" height="56" alt="Apple"></li>
-          <li class="os-icon__item"><img src="http://placehold.it/43x47" width="43" height="47" alt="Android"></li>
-          <li class="os-icon__item"><img src="http://placehold.it/44x41" width="44" height="41" alt="windows"></li>
-        </ul>
-        <p class="app-downloads__description">Доступно для iPhone, iPad, Android,
-          Windows Phone, OS X, Windows 8
-        </p>
+        <div class="app-download__wrapper">
+          <button class="app-download__btn" type="button">Скачать приложение</button>
+          <ul class="app-download__os os-icon">
+            <li class="os-icon__item"><img src="http://placehold.it/47x56" width="47" height="56" alt="Apple"></li>
+            <li class="os-icon__item"><img src="http://placehold.it/43x47" width="43" height="47" alt="Android"></li>
+            <li class="os-icon__item"><img src="http://placehold.it/44x41" width="44" height="41" alt="windows"></li>
+          </ul>
+          <p class="app-downloads__description">Доступно для iPhone, iPad, Android,
+            Windows Phone, OS X, Windows 8
+          </p>
+        </div>
       </section>
       <section class="advantages">
+        <h2 class="advantages__title-block">
+          <div class="advantages__wrapper">
+            <p class="advantages__title title-block__title">Устали от серости мегаполиса?</p>
+            <p class="advantages__title title-block__title">Нам есть, что вам предложить!</p>
+          </div>
+        </h2>
         <div class="advantages__wrapper">
-          <h2 class="advantages__title-block title">
-            <p class="advantages__title">Устали от серости мегаполиса?</p>
-            <p class="advantages__title">Нам есть, что вам предложить!</p>
-          </h2>
           <ul class="advantages__list">
             <li class="advantages__item">
               <h3 class="advantages__item-title">Поднимает настроение</h3>
               <p class="advantages__description">Приложение позволит вам победить
-              осеннюю хандру и депрессию буквально в несколько кликов!
+                осеннюю хандру и депрессию буквально в несколько кликов!
               </p>
             </li>
             <li class="advantages__item">
-              <h3 class="advantages__item-title">Меняет мир вокруг</h3>
+            <h3 class="advantages__item-title">Меняет мир вокруг</h3>
               <p class="advantages__description">Сделайте снимок и украсьте его смайликом
-                или текстовой подписьюб чтобы усилить эффект
+              или текстовой подписью, чтобы усилить эффект
               </p>
             </li>
             <li class="advantages__item">
